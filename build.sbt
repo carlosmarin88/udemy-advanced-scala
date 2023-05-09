@@ -6,3 +6,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "udemy-advanced-scala"
   )
+
+libraryDependencies += "org.scala-lang" % "scala-reflect" % "2.12.9"
