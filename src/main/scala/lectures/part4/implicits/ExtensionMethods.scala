@@ -1,6 +1,6 @@
 package lectures.part4.implicits
 
-class ExtensionMethods extends  App{
+class ExtensionMethods extends  App {
 
   case class Person(name: String) {
     def greet(): String = s"Hi, I'm $name, how can I help?"
